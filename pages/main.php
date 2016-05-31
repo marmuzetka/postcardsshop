@@ -4,7 +4,7 @@
       
     function render_main() {
         $LINKS_BUY = "Buy Cards";
-        $LINKS_LOGIN = "Sing Up";
+        $LINKS_LOGIN = "Sign Up";
         $BLOCK_SIZE = (!isUserLogged()) ? "double-block" : "single-block";
         $SING_UP_BLOCK = (!isUserLogged()) 
                                      ? "<div class='sing-up double-block'>
