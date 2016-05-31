@@ -14,7 +14,9 @@
             : render_login();
         exit();
     } elseif (isset($_POST['logout'])) {
+        include_once ("./functions/basket.php");
         $EXTRA = 'index.php';
+        deleteBasket();
         logoutUser();
         header("Location: $EXTRA");
         exit();

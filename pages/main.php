@@ -1,6 +1,6 @@
 <?php include_once('./includes/navigation.php'); ?>
 <?php
-    include_once ("/functions/login.php");
+    include_once ("./functions/login.php");
       
     function render_main() {
         $LINKS_BUY = "Buy Cards";

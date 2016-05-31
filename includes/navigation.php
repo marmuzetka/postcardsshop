@@ -1,4 +1,10 @@
 <div id='nav-bar'>
     <?php include_once('/customer.php'); ?>
-    <?php include_once('/basket.php'); ?>
+    <div class='basket'>
+        <?php
+            include_once('./includes/basket.php');
+            
+            render_basket_status();
+        ?>
+    </div>
 </div>

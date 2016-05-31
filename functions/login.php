@@ -43,6 +43,7 @@
         if (isset($RESULT['fname']) && isset($RESULT['lname'])) {
             $_SESSION['fname'] = $RESULT['fname'];
             $_SESSION['lname'] = $RESULT['lname'];
+            $_SESSION['id'] = $RESULT['id'];
             return TRUE;
         } else {
             return FALSE;
